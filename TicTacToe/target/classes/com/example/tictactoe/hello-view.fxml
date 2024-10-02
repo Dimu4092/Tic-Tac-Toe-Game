@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tictactoe.HelloController">
+    <children>
+        <Label fx:id="welcomeText" text="Welcome to JavaFX!" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0" />
+        <Button text="Play Tic Tac Toe" onAction="#handlePlayButtonClick" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="50.0" />
+    </children>
+</AnchorPane>
